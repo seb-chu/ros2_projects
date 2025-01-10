@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/minimal_param_node" "TARGETS" "minimal_param_node" "DESTINATION" "lib/cpp_parameters")

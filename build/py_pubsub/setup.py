@@ -1,1 +1,0 @@
-/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/py_pubsub/setup.py
