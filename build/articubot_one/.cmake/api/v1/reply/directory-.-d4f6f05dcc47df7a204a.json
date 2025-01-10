@@ -81,7 +81,7 @@
 		{
 			"backtrace" : 10,
 			"component" : "Unspecified",
-			"scriptFile" : "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+			"scriptFile" : "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/articubot_one/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
 			"type" : "script"
 		}
 	],

@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-0bc53db5bbd3ff2f910d.json",
+					"jsonFile" : "directory-.-d4f6f05dcc47df7a204a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -42,7 +42,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "articubot_one_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-articubot_one_uninstall-4848da8963c0ba4a4e62.json",
+					"jsonFile" : "target-articubot_one_uninstall-f166b8a8c5eca1a9ca75.json",
 					"name" : "articubot_one_uninstall",
 					"projectIndex" : 0
 				},
@@ -59,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one",
-		"source" : "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/articubot_one"
+		"build" : "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/articubot_one",
+		"source" : "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/articubot_one"
 	},
 	"version" : 
 	{
