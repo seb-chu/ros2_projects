@@ -1,0 +1,7 @@
+[01m[K/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters/src/cpp_parameters_node.cpp:[m[K In constructor ‘[01m[KMinimalParam::MinimalParam()[m[K’:
+[01m[K/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters/src/cpp_parameters_node.cpp:44:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMinimalParam[m[K’
+   44 |       1000ms, std::bind(&MinimalParam::[01;31m[Ktimer_callback[m[K, this));
+      |                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/minimal_param_node.dir/build.make:76: CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_param_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,19 @@
+[1.102s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/py_srvcli': PYTHONPATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/py_srvcli/build --no-deps symlink_data --force
+[1.379s] running develop
+[1.575s] running egg_info
+[1.575s] writing py_srvcli.egg-info/PKG-INFO
+[1.575s] writing dependency_links to py_srvcli.egg-info/dependency_links.txt
+[1.575s] writing entry points to py_srvcli.egg-info/entry_points.txt
+[1.575s] writing requirements to py_srvcli.egg-info/requires.txt
+[1.576s] writing top-level names to py_srvcli.egg-info/top_level.txt
+[1.577s] reading manifest file 'py_srvcli.egg-info/SOURCES.txt'
+[1.578s] writing manifest file 'py_srvcli.egg-info/SOURCES.txt'
+[1.579s] running build_ext
+[1.579s] Creating /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli/lib/python3.10/site-packages/py-srvcli.egg-link (link to .)
+[1.580s] Installing client script to /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli/lib/py_srvcli
+[1.580s] Installing service script to /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli/lib/py_srvcli
+[1.580s] 
+[1.580s] Installed /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/py_srvcli
+[1.580s] running symlink_data
+[1.580s] symbolically linking /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/py_srvcli/resource/py_srvcli -> /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli/share/ament_index/resource_index/packages
+[1.580s] symbolically linking /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/py_srvcli/package.xml -> /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli/share/py_srvcli

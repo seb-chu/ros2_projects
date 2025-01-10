@@ -1,0 +1,294 @@
+[0.007s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces
+[0.016s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.105s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.127s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.142s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.166s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.171s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.391s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.814s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.833s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.835s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.856s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.856s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.856s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.856s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.872s] -- Found PythonExtra: .so  
+[0.919s] -- Added test 'lint_cmake' to check CMake code style
+[0.920s] -- Added test 'xmllint' to check XML markup files
+[0.925s] -- Configuring done
+[0.948s] -- Generating done
+[0.956s] -- Build files have been written to: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces
+[0.962s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces
+[0.962s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces -- -j8 -l8
+[0.987s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.993s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.998s] [  4%] Built target ament_cmake_python_copy_tutorial_interfaces
+[1.186s] running egg_info
+[1.186s] creating tutorial_interfaces.egg-info
+[1.186s] writing tutorial_interfaces.egg-info/PKG-INFO
+[1.186s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[1.186s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[1.186s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.188s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.188s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.209s] [  4%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[1.279s] [  6%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[1.282s] [ 10%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[1.283s] [  8%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[1.283s] [ 10%] Built target tutorial_interfaces__cpp
+[1.289s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.290s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.291s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.341s] [ 19%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[1.369s] [ 19%] Built target tutorial_interfaces__rosidl_generator_c
+[1.376s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.378s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.378s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.562s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[1.562s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[1.562s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[1.662s] [ 34%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[1.738s] [ 36%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[1.763s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[1.769s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[1.774s] [ 42%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[1.806s] [ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[1.817s] [ 46%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[1.835s] [ 48%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[1.857s] [ 51%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.869s] [ 55%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[1.869s] [ 55%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[1.891s] [ 55%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[1.900s] [ 57%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[1.916s] [ 57%] Built target tutorial_interfaces__rosidl_typesupport_c
+[1.924s] [ 59%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[1.993s] [ 61%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[2.013s] [ 63%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[2.017s] [ 65%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[2.034s] [ 68%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.116s] [ 68%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[2.125s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[2.308s] [ 72%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[2.339s] [ 72%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[2.377s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.435s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[2.503s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.557s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.570s] [ 76%] Built target tutorial_interfaces
+[2.585s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.980s] [ 78%] Built target tutorial_interfaces__py
+[2.999s] [ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[2.999s] [ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[2.999s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[3.083s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[3.112s] [ 87%] Built target tutorial_interfaces__rosidl_generator_py
+[3.130s] [ 89%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.142s] [ 91%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.145s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.244s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.254s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.266s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.276s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.283s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.297s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[3.307s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces -- -j8 -l8
+[3.316s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --install /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces
+[3.324s] -- Install configuration: ""
+[3.324s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[3.325s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.325s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.325s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[3.325s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.325s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[3.325s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[3.325s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[3.325s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[3.326s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.326s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[3.326s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[3.326s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.326s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[3.326s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[3.326s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[3.326s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[3.327s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[3.327s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[3.327s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[3.327s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[3.327s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.327s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[3.327s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[3.327s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[3.327s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[3.328s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.328s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.328s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.328s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[3.328s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.328s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.328s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[3.328s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[3.329s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.329s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.329s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.329s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.329s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.329s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.329s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[3.329s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[3.329s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[3.330s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp
+[3.330s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[3.330s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.330s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.330s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[3.330s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+[3.330s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[3.330s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.hpp
+[3.331s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[3.331s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[3.331s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[3.331s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[3.331s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[3.331s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[3.331s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.331s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.331s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.332s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.332s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[3.332s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.332s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.332s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.332s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[3.332s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[3.332s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[3.332s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.332s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.332s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.332s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.333s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.333s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[3.333s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.333s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[3.333s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[3.333s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[3.333s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.333s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.333s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.333s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[3.334s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.334s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.334s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[3.334s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.334s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[3.335s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py
+[3.336s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[3.364s] Listing '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[3.364s] Compiling '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[3.364s] Listing '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[3.364s] Compiling '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...
+[3.364s] Compiling '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...
+[3.364s] Compiling '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py'...
+[3.364s] Listing '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[3.364s] Compiling '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...
+[3.364s] Compiling '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[3.367s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.367s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.368s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.368s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[3.368s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[3.368s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.369s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.370s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.371s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.371s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.371s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.371s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.371s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.371s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.371s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[3.371s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[3.371s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[3.373s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --install /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces

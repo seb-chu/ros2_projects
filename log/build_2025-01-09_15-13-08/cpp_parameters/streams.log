@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters -- -j8 -l8
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target minimal_param_node[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o[0m
+[2.307s] [100%] [32m[1mLinking CXX executable minimal_param_node[0m
+[2.390s] [100%] Built target minimal_param_node
+[2.397s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters -- -j8 -l8
+[2.404s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --install /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters
+[2.408s] -- Install configuration: ""
+[2.408s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
+[2.409s] -- Set runtime path of "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/lib/cpp_parameters/minimal_param_node" to ""
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[2.409s] -- Installing: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/package.dsv
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[2.409s] -- Up-to-date: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/share/cpp_parameters/package.xml
+[2.411s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --install /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters

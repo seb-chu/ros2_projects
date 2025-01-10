@@ -1,0 +1,8 @@
+[0.815s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/turtlesim -- -j8 -l8
+[0.884s] failed to create symbolic link '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/turtlesim/ament_cmake_python/turtlesim/turtlesim' because existing path cannot be removed: Is a directory
+[0.885s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlesim] Error 1
+[0.886s] gmake[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/all] Error 2
+[0.886s] gmake[1]: *** Waiting for unfinished jobs....
+[0.889s] [  2%] Built target turtlesim__cpp
+[0.889s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.890s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,82 @@
+[0.029s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one
+[0.590s] -- The C compiler identification is GNU 11.4.0
+[0.590s] -- The CXX compiler identification is GNU 11.4.0
+[0.590s] -- Detecting C compiler ABI info
+[0.590s] -- Detecting C compiler ABI info - done
+[0.591s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.591s] -- Detecting C compile features
+[0.591s] -- Detecting C compile features - done
+[0.592s] -- Detecting CXX compiler ABI info
+[0.592s] -- Detecting CXX compiler ABI info - done
+[0.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.594s] -- Detecting CXX compile features
+[0.594s] -- Detecting CXX compile features - done
+[0.594s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.594s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.594s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.594s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.648s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.657s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.659s] -- Added test 'lint_cmake' to check CMake code style
+[0.661s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.666s] -- Added test 'xmllint' to check XML markup files
+[0.670s] -- Configuring done
+[0.673s] -- Generating done
+[0.676s] -- Build files have been written to: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one
+[0.683s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one
+[0.685s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one -- -j8 -l8
+[0.729s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one -- -j8 -l8
+[0.731s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --install /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one
+[0.738s] -- Install configuration: ""
+[0.739s] -- Execute custom install script
+[0.739s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[0.750s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[0.759s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[0.767s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.776s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[0.785s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[0.793s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/joystick.yaml
+[0.801s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/main.rviz
+[0.809s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/map.rviz
+[0.817s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[0.825s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[0.835s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[0.841s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[0.848s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[0.856s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/description/camera.xacro
+[0.861s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[0.870s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/description/face.xacro
+[0.879s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[0.887s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.894s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/description/lidar.xacro
+[0.903s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.909s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.916s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[0.925s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[0.936s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[0.943s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[0.951s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[0.961s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.968s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[0.976s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[0.985s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[0.992s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[1.001s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.010s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.019s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.029s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.036s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.046s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.054s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.063s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/environment/path.sh
+[1.072s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.084s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/local_setup.bash
+[1.094s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/local_setup.sh
+[1.104s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.114s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.127s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/package.dsv
+[1.137s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.146s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.153s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.159s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/articubot_one/share/articubot_one/package.xml
+[1.167s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --install /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/articubot_one

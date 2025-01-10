@@ -1,0 +1,9 @@
+[0.057s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces -- -j8 -l8
+[0.777s] [  2%] Built target tutorial_interfaces__cpp
+[0.778s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[0.778s] failed to create symbolic link '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces/ament_cmake_python/tutorial_interfaces/tutorial_interfaces' because existing path cannot be removed: Is a directory
+[0.778s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces] Error 1
+[0.778s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/all] Error 2
+[0.778s] gmake[1]: *** Waiting for unfinished jobs....
+[0.778s] gmake: *** [Makefile:146: all] Error 2
+[0.785s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_srvcli:/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/py_pubsub:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces -- -j8 -l8
