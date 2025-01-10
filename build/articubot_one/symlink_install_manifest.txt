@@ -1,5 +1,5 @@
 /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/articubot_one/share/articubot_one/config/empty.yaml
-/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/articubot_one/share/articubot_one/config/view_bot.rviz
+/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/articubot_one/share/articubot_one/config/tutorial_view_bot.rviz
 /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
 /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
 /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/articubot_one/share/articubot_one/description/robot_core.xacro
