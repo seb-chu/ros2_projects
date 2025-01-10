@@ -1,8 +1,8 @@
-# Install script for directory: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters
+# Install script for directory: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters")
+  set(CMAKE_INSTALL_PREFIX "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_parameters")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

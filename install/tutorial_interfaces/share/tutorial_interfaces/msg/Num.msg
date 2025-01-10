@@ -1,1 +1,1 @@
-int64 num
+/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/tutorial_interfaces/msg/Num.msg

@@ -1,2 +1,1 @@
-from tutorial_interfaces.msg._num import Num  # noqa: F401
-from tutorial_interfaces.msg._sphere import Sphere  # noqa: F401
+/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/msg/__init__.py

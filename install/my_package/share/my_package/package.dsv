@@ -1,1 +1,8 @@
-/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/my_package/ament_cmake_environment_hooks/package.dsv
+source;share/my_package/hook/cmake_prefix_path.ps1
+source;share/my_package/hook/cmake_prefix_path.dsv
+source;share/my_package/hook/cmake_prefix_path.sh
+source;share/my_package/local_setup.bash
+source;share/my_package/local_setup.dsv
+source;share/my_package/local_setup.ps1
+source;share/my_package/local_setup.sh
+source;share/my_package/local_setup.zsh

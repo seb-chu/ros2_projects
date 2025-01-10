@@ -1,5 +1,5 @@
 CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o: \
- /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c \
+ /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -207,7 +207,7 @@ CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tuto
  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__struct.h \
+ /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
- /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.h \
- /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+ /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.h \
+ /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h

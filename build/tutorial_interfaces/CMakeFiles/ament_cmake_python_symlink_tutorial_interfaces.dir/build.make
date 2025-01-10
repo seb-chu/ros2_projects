@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/tutorial_interfaces
+CMAKE_SOURCE_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/tutorial_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces
+CMAKE_BINARY_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces
 
 # Utility rule file for ament_cmake_python_symlink_tutorial_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/compiler_d
 include CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces:
-	/usr/bin/cmake -E create_symlink /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces/ament_cmake_python/tutorial_interfaces/tutorial_interfaces
+	/usr/bin/cmake -E create_symlink /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces/ament_cmake_python/tutorial_interfaces/tutorial_interfaces
 
 ament_cmake_python_symlink_tutorial_interfaces: CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces
 ament_cmake_python_symlink_tutorial_interfaces: CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/depend:
-	cd /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/tutorial_interfaces /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/tutorial_interfaces /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/tutorial_interfaces/CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/tutorial_interfaces /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/tutorial_interfaces /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces/CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/depend
 

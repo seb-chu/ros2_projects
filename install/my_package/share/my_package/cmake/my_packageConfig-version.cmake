@@ -1,1 +1,1 @@
-/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/my_package/ament_cmake_core/my_packageConfig-version.cmake
+/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/my_package/ament_cmake_core/my_packageConfig-version.cmake

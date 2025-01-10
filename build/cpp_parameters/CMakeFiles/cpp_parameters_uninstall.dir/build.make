@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters
+CMAKE_SOURCE_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters
+CMAKE_BINARY_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters
 
 # Utility rule file for cpp_parameters_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/cpp_parameters_uninstall.dir/compiler_depend.make
 include CMakeFiles/cpp_parameters_uninstall.dir/progress.make
 
 CMakeFiles/cpp_parameters_uninstall:
-	/usr/bin/cmake -P /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 cpp_parameters_uninstall: CMakeFiles/cpp_parameters_uninstall
 cpp_parameters_uninstall: CMakeFiles/cpp_parameters_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/cpp_parameters_uninstall.dir/clean:
 .PHONY : CMakeFiles/cpp_parameters_uninstall.dir/clean
 
 CMakeFiles/cpp_parameters_uninstall.dir/depend:
-	cd /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/CMakeFiles/cpp_parameters_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/CMakeFiles/cpp_parameters_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_parameters_uninstall.dir/depend
 

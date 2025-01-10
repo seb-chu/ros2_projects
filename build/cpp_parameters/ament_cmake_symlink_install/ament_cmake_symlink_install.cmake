@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_parameters/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_parameters/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_parameters/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/cpp_parameters/${destination}")
+      set(destination "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_parameters/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,49 +311,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "minimal_param_node" "DESTINATION" "lib/cpp_parameters")
-include("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_directory("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" DIRECTORY "launch" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_directory("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" DIRECTORY "launch" "DESTINATION" "share/cpp_parameters")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/cpp_parameters/environment")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/cpp_parameters/environment")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/cpp_parameters/environment")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/cpp_parameters/environment")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/cpp_parameters/environment")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/cpp_parameters/environment")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/cpp_parameters/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/cpp_parameters/environment")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/cpp_parameters/environment")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/cpp_parameters/environment")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/cpp_parameters/environment")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/cpp_parameters/environment")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/cpp_parameters/environment")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/cpp_parameters/environment")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/cpp_parameters")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/cpp_parameters")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/cpp_parameters")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/cpp_parameters")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/cpp_parameters")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/cpp_parameters")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/cpp_parameters")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/cpp_parameters")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/cpp_parameters")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/cpp_parameters")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/packages/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/packages/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/packages/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/packages/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig.cmake" "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig-version.cmake" "DESTINATION" "share/cpp_parameters/cmake")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig.cmake" "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig-version.cmake" "DESTINATION" "share/cpp_parameters/cmake")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig.cmake" "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig-version.cmake" "DESTINATION" "share/cpp_parameters/cmake")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig.cmake" "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig-version.cmake" "DESTINATION" "share/cpp_parameters/cmake")
 
-# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters/package.xml" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_parameters/package.xml" "DESTINATION" "share/cpp_parameters")
+# install(FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters/package.xml" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters" FILES "/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_parameters/package.xml" "DESTINATION" "share/cpp_parameters")

@@ -1,5 +1,5 @@
 CMakeFiles/my_node.dir/src/my_node.cpp.o: \
- /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/my_package/src/my_node.cpp \
+ /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/my_package/src/my_node.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -1,0 +1,66 @@
+[0.010s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:/home/sebastianchu/ros2_ws/install/moveit_servo:/home/sebastianchu/ros2_ws/install/karura_arm_moveit_config:/home/sebastianchu/ros2_ws/install/arm_controller:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.396s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.446s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.474s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.510s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.514s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.523s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.589s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.591s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.658s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.687s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.722s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.730s] -- Looking for pthread.h
+[0.794s] -- Looking for pthread.h - found
+[0.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.863s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.864s] -- Found Threads: TRUE  
+[0.912s] -- Found tutorial_interfaces: 0.0.0 (/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.995s] -- Configuring done
+[1.007s] -- Generating done
+[1.011s] -- Build files have been written to: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli
+[1.023s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:/home/sebastianchu/ros2_ws/install/moveit_servo:/home/sebastianchu/ros2_ws/install/karura_arm_moveit_config:/home/sebastianchu/ros2_ws/install/arm_controller:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli
+[1.025s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:/home/sebastianchu/ros2_ws/install/moveit_servo:/home/sebastianchu/ros2_ws/install/karura_arm_moveit_config:/home/sebastianchu/ros2_ws/install/arm_controller:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli -- -j8 -l8
+[1.071s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.071s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[4.667s] [ 75%] [32m[1mLinking CXX executable server[0m
+[4.768s] [100%] [32m[1mLinking CXX executable client[0m
+[4.862s] [100%] Built target server
+[4.977s] [100%] Built target client
+[4.990s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:/home/sebastianchu/ros2_ws/install/moveit_servo:/home/sebastianchu/ros2_ws/install/karura_arm_moveit_config:/home/sebastianchu/ros2_ws/install/arm_controller:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli -- -j8 -l8
+[4.993s] Invoking command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:/home/sebastianchu/ros2_ws/install/moveit_servo:/home/sebastianchu/ros2_ws/install/karura_arm_moveit_config:/home/sebastianchu/ros2_ws/install/arm_controller:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli
+[5.001s] -- Install configuration: ""
+[5.002s] -- Execute custom install script
+[5.002s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/lib/cpp_srvcli/server
+[5.011s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/lib/cpp_srvcli/client
+[5.023s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[5.032s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[5.041s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[5.051s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[5.060s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[5.070s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[5.080s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[5.089s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[5.098s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[5.108s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[5.117s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[5.126s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[5.136s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[5.145s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[5.155s] -- Symlinking: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[5.168s] Invoked command in '/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces:/home/sebastianchu/ros2_ws/install/moveit_servo:/home/sebastianchu/ros2_ws/install/karura_arm_moveit_config:/home/sebastianchu/ros2_ws/install/arm_controller:/home/sebastianchu/ros2_ws/install/serial_comm:/home/sebastianchu/ros2_ws/install/send_target_joint_degrees:/home/sebastianchu/ros2_ws/install/karura_arm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_srvcli
+CMAKE_SOURCE_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli
+CMAKE_BINARY_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli
 
 # Include any dependencies generated for this target.
 include CMakeFiles/server.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/server.dir/progress.make
 include CMakeFiles/server.dir/flags.make
 
 CMakeFiles/server.dir/src/add_two_ints_server.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/add_two_ints_server.cpp.o: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_srvcli/src/add_two_ints_server.cpp
+CMakeFiles/server.dir/src/add_two_ints_server.cpp.o: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli/src/add_two_ints_server.cpp
 CMakeFiles/server.dir/src/add_two_ints_server.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/add_two_ints_server.cpp.o -MF CMakeFiles/server.dir/src/add_two_ints_server.cpp.o.d -o CMakeFiles/server.dir/src/add_two_ints_server.cpp.o -c /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_srvcli/src/add_two_ints_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/add_two_ints_server.cpp.o -MF CMakeFiles/server.dir/src/add_two_ints_server.cpp.o.d -o CMakeFiles/server.dir/src/add_two_ints_server.cpp.o -c /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli/src/add_two_ints_server.cpp
 
 CMakeFiles/server.dir/src/add_two_ints_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/add_two_ints_server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_srvcli/src/add_two_ints_server.cpp > CMakeFiles/server.dir/src/add_two_ints_server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli/src/add_two_ints_server.cpp > CMakeFiles/server.dir/src/add_two_ints_server.cpp.i
 
 CMakeFiles/server.dir/src/add_two_ints_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/add_two_ints_server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_srvcli/src/add_two_ints_server.cpp -o CMakeFiles/server.dir/src/add_two_ints_server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli/src/add_two_ints_server.cpp -o CMakeFiles/server.dir/src/add_two_ints_server.cpp.s
 
 # Object files for target server
 server_OBJECTS = \
@@ -93,12 +93,12 @@ server_EXTERNAL_OBJECTS =
 server: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o
 server: CMakeFiles/server.dir/build.make
 server: /opt/ros/humble/lib/librclcpp.so
-server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
-server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
-server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
-server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
-server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
-server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
 server: /opt/ros/humble/lib/liblibstatistics_collector.so
 server: /opt/ros/humble/lib/librcl.so
 server: /opt/ros/humble/lib/librmw_implementation.so
@@ -154,8 +154,8 @@ server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 server: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 server: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 server: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
-server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+server: /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
 server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -171,7 +171,7 @@ server: /opt/ros/humble/lib/librosidl_runtime_c.so
 server: /opt/ros/humble/lib/librcutils.so
 server: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/server.dir/clean:
 .PHONY : CMakeFiles/server.dir/clean
 
 CMakeFiles/server.dir/depend:
-	cd /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/server.dir/depend
 

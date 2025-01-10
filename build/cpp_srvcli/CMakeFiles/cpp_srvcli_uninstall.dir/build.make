@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_srvcli
+CMAKE_SOURCE_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli
+CMAKE_BINARY_DIR = /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli
 
 # Utility rule file for cpp_srvcli_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/cpp_srvcli_uninstall.dir/compiler_depend.make
 include CMakeFiles/cpp_srvcli_uninstall.dir/progress.make
 
 CMakeFiles/cpp_srvcli_uninstall:
-	/usr/bin/cmake -P /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 cpp_srvcli_uninstall: CMakeFiles/cpp_srvcli_uninstall
 cpp_srvcli_uninstall: CMakeFiles/cpp_srvcli_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/cpp_srvcli_uninstall.dir/clean:
 .PHONY : CMakeFiles/cpp_srvcli_uninstall.dir/clean
 
 CMakeFiles/cpp_srvcli_uninstall.dir/depend:
-	cd /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/src/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorial/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/src/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli /home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_srvcli_uninstall.dir/depend
 

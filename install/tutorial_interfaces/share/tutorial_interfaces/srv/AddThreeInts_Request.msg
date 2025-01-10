@@ -1,3 +1,1 @@
-int64 a
-int64 b
-int64 c
+/home/sebastianchu/code/ros2_tutorial/ros2_ws_tutorials/build/tutorial_interfaces/rosidl_cmake/srv/AddThreeInts_Request.msg
