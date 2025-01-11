@@ -1,6 +1,11 @@
-### To start world
+### To start Gazebo without world
 ```
 ros2 launch articubot_one launch_sim.launch.py
+```
+
+### To start Gazebo with world
+```
+ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
 ```
 
 ### To control simulated robot 
