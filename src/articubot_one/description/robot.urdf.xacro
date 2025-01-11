@@ -3,4 +3,10 @@
 
     <xacro:include filename="robot_core.xacro" />
     
+<<<<<<< HEAD
+=======
+    <xacro:include filename="gazebo_control.xacro"/>
+
+    <!-- ADD TO LUNABOTICS -->
+>>>>>>> 42f2be0 (migrating files to lunabotics branch)
 </robot>
