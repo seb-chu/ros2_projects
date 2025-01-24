@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250115-2358-Experimental"
+	Name="sebastianchu-XPS-13-9310"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="sebastianchu-XPS-13-9310"
+	OSRelease="5.15.0-130-generic"
+	OSVersion="#140-Ubuntu SMP Wed Dec 18 17:59:53 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="140"
+	ProcessorCacheSize="8192"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="1931"
+	TotalPhysicalMemory="15701"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="811.797"
+	>
+	<Testing>
+		<StartDateTime>Jan 15 17:58 CST</StartDateTime>
+		<StartTestTime>1736985522</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jan 15 17:58 CST</EndDateTime>
+		<EndTestTime>1736985522</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

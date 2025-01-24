@@ -3,7 +3,6 @@
 
     <gazebo>
         <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
-            <!-- ADD TO LUNABOTICS branch -->
             <!-- Wheel Info (Spacing and Dimensions) -->
             <left_joint>left_wheel_joint</left_joint>
             <right_joint>right_wheel_joint</right_joint>
