@@ -31,9 +31,18 @@ ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/
 ros2 run image_transport list_transports
 ```
 
+
+## Making SLAM work for robot
+
+### Activate SLAM mapping. 
+```
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/articubot_one/config/mapper_params_online_async.yaml use_sim_time:=true
+```
+
+
+
 # Notes
 - Gazebo represents the real-world movements, while RViz represents the simulated world.
 - make sure the caster wheel is frictionless (shown in ```robot_core.xacro``` CASTER WHEEL LINK).
 - ```launch_sim.launch.py``` combines launching Rviz, Gazebo, and spawn_entity.
 - [WANT TO USE JOYSTICK?](https://youtu.be/IjFcr5r0nMs?si=jjGV6RP34PZ4Pcl5&t=1044)
-
